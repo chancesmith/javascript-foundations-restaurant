@@ -1,0 +1,31 @@
+<html>
+  <head>
+    <title>Javascript Foundations</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <div>
+      <form>
+        <input type="text" id="serverName" placeholder="server" />
+        <button id="createServer">Create Server</button>
+      </form>
+      <div id="servers"></div>
+    </div>
+
+    <div>
+      <form>
+        <input type="text" id="partyName" placeholder="party" />
+        <select name="tablesSelect" id="tablesSelect"
+          ><option value="">Select Table</option>
+        </select>
+        <select name="serversSelect" id="serversSelect"></select>
+        <button id="seatParty">Seat Customer</button>
+      </form>
+    </div>
+
+    <div id="tables"></div>
+
+    <script src="src/index.ts"></script>
+  </body>
+</html>
